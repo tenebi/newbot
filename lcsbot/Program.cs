@@ -33,8 +33,8 @@ namespace conductorbot
             Settings._client.Log += Debugging.Log;
             Settings._commands.Log += Debugging.Log;
             Settings._client.MessageUpdated += MessageUpdated;
-            Settings._client.UserJoined += lcsbot.Functions.Arrival.TrainPassengers;
-            lcsbot.Functions.Arrival.timer.Elapsed += lcsbot.Functions.Arrival.TimerElapsed;
+            Settings._client.UserJoined += conductorbot.Functions.Arrival.TrainPassengers;
+            conductorbot.Functions.Arrival.timer.Elapsed += conductorbot.Functions.Arrival.TimerElapsed;
 
             await RegisterCommandAsync();
             await Settings._client.LoginAsync(TokenType.Bot, Settings.BotToken);

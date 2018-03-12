@@ -158,8 +158,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Functions\Arrival.cs" />
+    <Compile Include="Functions\CheckPermissions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoleCommands\SetColor.cs" />
     <Compile Include="RoleCommands\ticket.cs" />
     <Compile Include="Services\Crypto.cs" />
     <Compile Include="Services\Debugging.cs" />

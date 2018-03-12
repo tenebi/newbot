@@ -1,0 +1,10 @@
+00:18:37 Settings    Loaded configuration.json successfully
+00:18:37 TODO        make it so functions that use db check if db is enabled in settings
+00:18:38 Discord     Discord.Net v1.0.2 (API v6)
+00:18:38 Gateway     Connecting
+00:18:39 Gateway     Connected
+00:18:40 Gateway     Ready
+00:18:51 Command Han Jovan called //setcolor
+00:18:51 Command Han Error with command //setcolor: The input text has too few parameters
+00:18:54 Gateway     A MessageReceived handler is blocking the gateway task.
+00:18:57 Command Han Jovan called //setcolor a

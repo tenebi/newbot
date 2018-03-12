@@ -1,0 +1,12 @@
+00:38:15 Settings    Loaded configuration.json successfully
+00:38:16 TODO        make it so functions that use db check if db is enabled in settings
+00:38:16 Discord     Discord.Net v1.0.2 (API v6)
+00:38:16 Gateway     Connecting
+00:38:17 Gateway     Connected
+00:38:17 Gateway     Ready
+00:38:32 Command Han Stefan called //none
+00:38:32 Command Han Error with command //none: Unknown command
+00:38:35 Gateway     A MessageReceived handler is blocking the gateway task.
+00:38:53 Command Han Stefan called //setcolor non
+00:39:26 Command Han Stefan called //setcolor none
+00:39:27 SetColorCom Removed colors for Stefan

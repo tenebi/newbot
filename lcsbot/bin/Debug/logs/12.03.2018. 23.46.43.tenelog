@@ -1,0 +1,13 @@
+23:46:43 Settings    Loaded configuration.json successfully
+23:46:43 TODO        make it so functions that use db check if db is enabled in settings
+23:46:44 Discord     Discord.Net v1.0.2 (API v6)
+23:46:44 Gateway     Connecting
+23:46:45 Gateway     Connected
+23:46:45 Gateway     Ready
+23:46:49 Command Han Jovan called //?
+23:46:49 Command Han Error with command //?: Unknown command
+23:46:52 Gateway     A MessageReceived handler is blocking the gateway task.
+23:46:54 Command Han tenebi called //
+23:46:54 Command Han Error with command //: Unknown command
+23:46:57 Gateway     A MessageReceived handler is blocking the gateway task.
+23:47:01 Command Han Jovan called //setcolor a

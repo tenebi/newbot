@@ -1,0 +1,9 @@
+00:25:25 Settings    Loaded configuration.json successfully
+00:25:25 TODO        make it so functions that use db check if db is enabled in settings
+00:25:25 Discord     Discord.Net v1.0.2 (API v6)
+00:25:26 Gateway     Connecting
+00:25:27 Gateway     Connected
+00:25:27 Gateway     Ready
+00:25:31 Command Han Jovan called //setcolor bepis
+00:26:13 Command Han Stefan called //setcolor teal
+00:26:35 Command Han Stefan called //setcolor blue

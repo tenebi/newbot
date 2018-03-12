@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using Discord.WebSocket;
 using Discord;
 
-namespace lcsbot.Functions
+namespace conductorbot.Functions
 {
     public class Arrival
     {
