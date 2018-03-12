@@ -1,0 +1,65 @@
+16:44:24 Settings    Loaded configuration.json successfully
+16:44:24 SQL Server  Database disabled in configuration. Some features which use a mysql database won't be available
+16:44:24 TODO        make it so functions that use db check if db is enabled in settings
+16:44:24 Discord     Discord.Net v1.0.2 (API v6)
+16:44:24 Gateway     Connecting
+16:44:25 Gateway     Connected
+16:44:25 Gateway     Ready
+16:44:33 TrainArrive A train arrived, but no passengers were on board. No message was sent.
+16:44:43 TrainArrive A train arrived, but no passengers were on board. No message was sent.
+16:44:53 TrainArrive A train arrived, but no passengers were on board. No message was sent.
+16:45:03 TrainArrive A train arrived, but no passengers were on board. No message was sent.
+16:45:13 TrainArrive A train arrived, but no passengers were on board. No message was sent.
+16:45:23 TrainArrive A train arrived, but no passengers were on board. No message was sent.
+16:45:33 TrainArrive A train arrived, but no passengers were on board. No message was sent.
+16:45:43 TrainArrive A train arrived, but no passengers were on board. No message was sent.
+16:46:40 TrainArrive A train arrived, but no passengers were on board. No message was sent.
+16:47:03 TrainArrive A train arrived, but no passengers were on board. No message was sent.
+16:47:03 SQL Insert  Error inserting records: Connection must be valid and open.
+16:47:03 Gateway     A UserJoined handler is blocking the gateway task.
+16:47:03 Gateway     System.Exception: WebSocket connection was closed ---> System.Net.WebSockets.WebSocketException: An internal WebSocket error occurred. Please see the innerException, if present, for more details.  ---> System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at System.Net.FixedSizeReader.StartReading()
+   at System.Net.Security._SslStream.StartFrameHeader(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security._SslStream.StartReading(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security._SslStream.ProcessRead(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security._SslStream.BeginRead(Byte[] buffer, Int32 offset, Int32 count, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.TlsStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.PooledStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at System.IO.Stream.<>c.<BeginEndReadAsync>b__43_0(Stream stream, ReadWriteParameters args, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncTrim[TInstance,TArgs](TInstance thisRef, TArgs args, Func`5 beginMethod, Func`3 endMethod)
+   at System.IO.Stream.BeginEndReadAsync(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at System.Net.DelegatedStream.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at System.Net.WebSockets.WebSocketConnectionStream.WebSocketConnection.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at System.Net.DelegatedStream.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at System.Net.BufferedReadStream.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at System.Net.WebSockets.WebSocketConnectionStream.<>n__0(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at System.Net.WebSockets.WebSocketConnectionStream.<ReadAsync>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at System.Net.WebSockets.WebSocketBase.WebSocketOperation.<Process>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__45.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Net.WebSockets.WebSocketBase.ThrowIfConvertibleException(String methodName, Exception exception, CancellationToken cancellationToken, Boolean aborted)
+   at System.Net.WebSockets.WebSocketBase.<ReceiveAsyncCore>d__45.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Net.WebSockets.DefaultWebSocketClient.<RunAsync>d__32.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.ConnectionManager.<>c__DisplayClass28_0.<<StartAsync>b__0>d.MoveNext()
+16:47:03 Gateway     Disconnecting
+16:47:03 Gateway     Disconnected
+16:47:04 Gateway     Connecting
+16:47:04 Gateway     Resumed previous session

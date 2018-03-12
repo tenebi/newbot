@@ -1,0 +1,3 @@
+01:23:20 Settings    Loaded configuration.json successfully
+01:23:20 SQL Server  Database disabled in configuration. Some features which use a mysql database won't be available
+01:23:20 TODO        make it so functions that use db check if db is enabled in settings

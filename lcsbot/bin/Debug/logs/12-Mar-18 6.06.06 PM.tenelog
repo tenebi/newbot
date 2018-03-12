@@ -1,0 +1,7 @@
+18:06:06 Settings    Loaded configuration.json successfully
+18:06:06 TODO        make it so functions that use db check if db is enabled in settings
+18:06:06 Discord     Discord.Net v1.0.2 (API v6)
+18:06:07 Gateway     Connecting
+18:06:08 Gateway     Connected
+18:06:08 Gateway     Ready
+18:06:10 Command Han tenebi called //ticket

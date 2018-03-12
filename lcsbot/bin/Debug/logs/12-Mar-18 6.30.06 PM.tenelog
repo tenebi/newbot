@@ -1,0 +1,70 @@
+18:30:06 Settings    Loaded configuration.json successfully
+18:30:06 TODO        make it so functions that use db check if db is enabled in settings
+18:30:06 Discord     Discord.Net v1.0.2 (API v6)
+18:30:07 Gateway     Connecting
+18:30:08 Gateway     Connected
+18:30:09 Gateway     Ready
+18:34:42 Command Han tokeking called //ticket platform1
+18:34:42 Command     Discord.Commands.CommandException: Error occurred executing "platform1" for tokeking#4551 in the station/ticket-station. ---> Discord.Net.HttpException: The server responded with error 403: Forbidden
+   at Discord.Net.Queue.RequestBucket.<SendAsync>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Net.Queue.RequestQueue.<SendAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.API.DiscordRestApiClient.<SendInternalAsync>d__62.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.API.DiscordRestApiClient.<SendAsync>d__51.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.API.DiscordRestApiClient.<AddRoleAsync>d__73.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Rest.UserHelper.<AddRolesAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at conductorbot.RoleCommands.ticket.<platform1>d__1.MoveNext() in C:\Users\cPC\Documents\conductorbot\lcsbot\RoleCommands\ticket.cs:line 38
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+   --- End of inner exception stack trace ---
+18:34:42 Command Han Error with command //ticket platform1: The server responded with error 403: Forbidden
+18:35:44 Command Han tokeking called //ticket platform1
+18:35:47 Gateway     A MessageReceived handler is blocking the gateway task.
+18:35:47 Gateway     A MessageReceived handler has thrown an unhandled exception.:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at conductorbot.Program.<HandleCommandAsync>d__4.MoveNext() in C:\Users\cPC\Documents\conductorbot\lcsbot\Program.cs:line 68
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.EventExtensions.<InvokeAsync>d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.WebSocket.DiscordSocketClient.<TimeoutWrap>d__128.MoveNext()
+18:35:56 Command Han tokeking called //ticket platform1
+18:35:59 Gateway     A MessageReceived handler is blocking the gateway task.
+18:36:00 Gateway     A MessageReceived handler has thrown an unhandled exception.:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at conductorbot.Program.<HandleCommandAsync>d__4.MoveNext() in C:\Users\cPC\Documents\conductorbot\lcsbot\Program.cs:line 68
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.EventExtensions.<InvokeAsync>d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.WebSocket.DiscordSocketClient.<TimeoutWrap>d__128.MoveNext()

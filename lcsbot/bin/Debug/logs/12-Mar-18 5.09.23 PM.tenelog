@@ -1,0 +1,6 @@
+17:09:23 Settings    Loaded configuration.json successfully
+17:09:23 TODO        make it so functions that use db check if db is enabled in settings
+17:09:23 Discord     Discord.Net v1.0.2 (API v6)
+17:09:23 Gateway     Connecting
+17:09:24 Gateway     Connected
+17:09:24 Gateway     Ready

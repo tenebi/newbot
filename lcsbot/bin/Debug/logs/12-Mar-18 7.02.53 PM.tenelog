@@ -1,0 +1,40 @@
+19:02:53 Settings    Loaded configuration.json successfully
+19:02:53 TODO        make it so functions that use db check if db is enabled in settings
+19:02:54 Discord     Discord.Net v1.0.2 (API v6)
+19:02:54 Gateway     Connecting
+19:02:55 Gateway     Connected
+19:02:55 Gateway     Ready
+19:03:31 Command Han Jovan called //ticket platform0
+19:03:31 Command Han Error with command //ticket platform0: Command can only be run by the owner of the bot
+19:03:34 Gateway     A MessageReceived handler is blocking the gateway task.
+19:04:59 Command Han Jovan called //tickeet platform1
+19:05:00 Command Han Error with command //tickeet platform1: Unknown command
+19:05:02 Gateway     A MessageReceived handler is blocking the gateway task.
+19:05:06 Command Han Jovan called //ticket platform1
+19:05:09 Gateway     A MessageReceived handler is blocking the gateway task.
+19:05:10 Gateway     A MessageReceived handler has thrown an unhandled exception.:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at conductorbot.Program.<HandleCommandAsync>d__4.MoveNext() in C:\Users\cPC\Documents\conductorbot\lcsbot\Program.cs:line 74
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.EventExtensions.<InvokeAsync>d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.WebSocket.DiscordSocketClient.<TimeoutWrap>d__128.MoveNext()
+19:05:16 Command Han Jovan called //ticket platform2
+19:05:16 Command     Discord.Commands.CommandException: Error occurred executing "platform2" for Jovan#2244 in the station/ticket-station. ---> System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at conductorbot.RoleCommands.ticket.<platform2>d__2.MoveNext() in C:\Users\cPC\Documents\conductorbot\lcsbot\RoleCommands\ticket.cs:line 51
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+   --- End of inner exception stack trace ---
+19:05:16 Command Han Error with command //ticket platform2: Sequence contains no elements
+19:05:19 Gateway     A MessageReceived handler is blocking the gateway task.

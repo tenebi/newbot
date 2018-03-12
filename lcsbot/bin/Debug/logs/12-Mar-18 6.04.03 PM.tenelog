@@ -1,0 +1,22 @@
+18:04:03 Settings    Loaded configuration.json successfully
+18:04:03 TODO        make it so functions that use db check if db is enabled in settings
+18:04:03 Discord     Discord.Net v1.0.2 (API v6)
+18:04:03 Gateway     Connecting
+18:04:04 Gateway     Connected
+18:04:05 Gateway     Ready
+18:04:08 Command Han tenebi called //ticket
+18:04:08 Command     Discord.Commands.CommandException: Error occurred executing "Default" for tenebi#3244 in the station/ticket-station. ---> System.ArgumentException: Field name must not be null or empty.
+Parameter name: Name
+   at Discord.EmbedFieldBuilder.set_Name(String value)
+   at Discord.EmbedBuilder.AddField(String title, String text, Boolean inline)
+   at conductorbot.RoleCommands.ticket.<Default>d__0.MoveNext() in C:\Users\cPC\Documents\conductorbot\lcsbot\RoleCommands\ticket.cs:line 20
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+   --- End of inner exception stack trace ---
+18:04:08 Command Han Error with command //ticket: Field name must not be null or emptyParameter name: Name

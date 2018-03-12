@@ -1,0 +1,62 @@
+19:10:21 Settings    Loaded configuration.json successfully
+19:10:21 SQL Server  Please enter login info
+19:10:34 SetConnecti New connection string set
+19:10:36 Database Te Connection to database is valid
+19:10:36 TODO        make it so functions that use db check if db is enabled in settings
+19:10:36 Discord     Discord.Net v1.0.2 (API v6)
+19:10:38 Gateway     Connecting
+19:10:39 Gateway     Connected
+19:10:40 Gateway     Ready
+19:11:07 Command Han tenebi called !battle <@254376091089764352>
+19:11:09 GetExisting Error getting existing team from user: Index was out of range. Must be non-negative and less than the size of the collection.Parameter name: index
+19:11:10 Command     Discord.Commands.CommandException: Error occurred executing "battle" for tenebi#3244 in space hunters/tenebot. ---> Newtonsoft.Json.JsonSerializationException: Error setting value to 'Season' on 'RiotSharp.MatchEndpoint.MatchReference'. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at SetSeason(Object , Object )
+   at Newtonsoft.Json.Serialization.DynamicValueProvider.SetValue(Object target, Object value)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.DynamicValueProvider.SetValue(Object target, Object value)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at RiotSharp.RiotApi.GetRecentMatches(Region region, Int64 accountId)
+   at lcsbot.Commands.SimulateMatch.<CompareTeamsCompoundKDA>d__2.MoveNext() in C:\Users\cPC\Dropbox\lcsbot\lcsbot\lcsbot\Commands\SimulateMatch.cs:line 41
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at lcsbot.Commands.SimulateMatch.<battle>d__1.MoveNext() in C:\Users\cPC\Dropbox\lcsbot\lcsbot\lcsbot\Commands\SimulateMatch.cs:line 30
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_1.<<BuildCommand>g__ExecuteCallback1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.Commands.CommandInfo.<ExecuteAsyncInternal>d__41.MoveNext()
+   --- End of inner exception stack trace ---
+19:11:11 Command Han Error with command !battle <@254376091089764352>: Error setting value to 'Season' on 'RiotSharpMatchEndpointMatchReference'
+19:11:11 Gateway     A MessageReceived handler is blocking the gateway task.
+19:11:27 Command Han tenebi sent team view
+19:11:30 Gateway     A MessageReceived handler is blocking the gateway task.
+19:11:30 Gateway     A MessageReceived handler has thrown an unhandled exception.:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lcsbot.Program.<HandleCommandAsync>d__4.MoveNext() in C:\Users\cPC\Dropbox\lcsbot\lcsbot\lcsbot\Program.cs:line 105
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.EventExtensions.<InvokeAsync>d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.WebSocket.DiscordSocketClient.<TimeoutWrap>d__128.MoveNext()

@@ -1,0 +1,15 @@
+{
+  "ClientId": "client_id_here",
+  "BotToken": "NDE4NTU1MTY3NzI2ODk1MTA0.DXjSmA.n-I7QSZaio3ch90yPM_djDev7Vg",
+  "OwnerIds": [
+    "415941876680491019",
+    "181108473759662081",
+    "140197514958602240"
+  ],
+  "EnableDatabase": true,
+  "BaseHostUrl": "http://139.59.162.138/lcsbot/",
+  "SqlServerUrl": "139.59.162.138",
+  "DatabaseName": "lcsbotDatabase",
+  "RiotAPIKey": "RGAPI-fdc9b99d-014e-40bc-b3a7-48842d6d9089",
+  "ChampionGGAPIKey": "9d30e87ffd52401b8387aa20cf2c701e"
+}

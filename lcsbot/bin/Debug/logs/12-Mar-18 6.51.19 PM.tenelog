@@ -1,0 +1,19 @@
+18:51:19 Settings    Loaded configuration.json successfully
+18:51:19 TODO        make it so functions that use db check if db is enabled in settings
+18:51:19 Discord     Discord.Net v1.0.2 (API v6)
+18:51:19 Gateway     Connecting
+18:51:20 Gateway     Connected
+18:51:21 Gateway     Ready
+18:51:30 Command Han tenebi called //ticket platform1
+18:51:33 Gateway     A MessageReceived handler is blocking the gateway task.
+18:51:34 Gateway     A MessageReceived handler has thrown an unhandled exception.:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at conductorbot.Program.<HandleCommandAsync>d__4.MoveNext() in C:\Users\cPC\Documents\conductorbot\lcsbot\Program.cs:line 74
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.EventExtensions.<InvokeAsync>d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Discord.WebSocket.DiscordSocketClient.<TimeoutWrap>d__128.MoveNext()
